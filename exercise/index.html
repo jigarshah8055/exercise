@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+    
+</head>
+<body>
+    <div class="header">
+        <div class="main">
+        </div>
+    </div>
+    <div class="main">
+        <div class="mform">
+            <div class="boxheader">
+                <div class="boxtitle">
+                    <div class="ttxt"><b>Registration</b></div> 
+                </div>
+            </div>
+            
+                    <form id="form1" method="POST">
+                        <div class="content">
+                            <label class="l">First name</label>
+                            <input class="input1" type="text" name="FirstName" placeholder="First Name">
+                        </div>
+                        <div class="content">
+                            <label class="l">Last name</label>
+                            <input class="input1" type="text" name="LastName" placeholder="Last Name">
+                        </div>
+                        <div class="content">
+                            <label class="l">Middle name</label>
+                            <input class="input1" type="text" name="MiddleName" placeholder="Middle Name">
+                        </div>
+                        <div class="content">
+                            <label class="l">Email</label>
+                            <input class="input1" type="email" name="Email" placeholder="Email">
+                        </div>    
+                        <div class="content">    
+                            <label class="l">Password</label>
+                            <input class="input1" type="password" name="Password" placeholder="Password">
+                        </div>
+                        <div class="content">
+                            <label class="l">Gender</label>
+                            <div class="input1">
+                                <input type="radio" name="gndr" value="male">male
+                                <input type="radio" name="gndr" value="female">female
+                                <input type="radio" name="gndr" value="other">other
+                            </div>
+                        </div>
+                        <div class="content">
+                            <label class="l">Hobbies</label>
+                            <textarea class="input1" rows="" cols="" name="Hobbies" placeholder="Hobbies"></textarea>
+                        </div>
+                        <div class="content">
+                            <button type="submit" class="regbut" value="submit">submit</button>
+                        </div>
+         </div>
+    </div>
+            <div class="main">
+                <div class="mform1">
+                    <div class="boxheader">
+                        <div class="boxtitle">
+                            <div class="ttxt"><b>Data Table</b></div> 
+                        </div>
+                    </div>
+                        <table id="t1"> 
+                            <thead>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Middle Name</th>
+                                <th>Email</th>
+                                <th>Password</th>
+                                <th>Gender</th>
+                                <th>Hobbies</th>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+                            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+                            <script src="jscript.js"></script>
+                    </form>
+       
+</body>
+</html>
